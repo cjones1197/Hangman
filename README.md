@@ -35,6 +35,3 @@ The App should now automatically open in your browser, but you can view it in yo
 # Maintenance
  
 This project was built by and is maintained by `cjones1197`.# Hangman
-# Hangman
-# Hangman
-# Hangman
