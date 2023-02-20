@@ -42,7 +42,7 @@ import wordList from '../wordList'
         setResult: (state, action) => {
             switch (action.payload) {
                 case 0:
-                    state.result = `Sorry, you lost this time! The correct word is ${state.newWord}`;
+                    state.result = `Sorry, you lost this time! The correct word is: ${state.newWord}`;
                     break;
                 case 1:
                     state.result = 'You are a winner! Congratulations!';
