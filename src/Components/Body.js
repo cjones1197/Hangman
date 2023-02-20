@@ -4,9 +4,9 @@ import { useState, useEffect} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 // Imported the 4 reducers from the wordSlice.js file. 
 import { resetCount, increaseCount, getNewWord, setResult } from "../Features/wordSlice"; 
-// Imported the keyboard to use from the Keyboard.js file
+// Imported the keyboard to use from the Keyboard.js file.
 import Keyboard from "./Keyboard";
-// Imported the Display Images to use from the DisplayImages.js file
+// Imported the Display Images to use from the DisplayImages.js file.
 import DisplayImages from "./DisplayImages";
 
 /* Created a functional component Body, which uses hooks, functions and 
