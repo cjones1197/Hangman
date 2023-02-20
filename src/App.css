@@ -1,0 +1,86 @@
+/* Using the class and id names of the div elements in components, I have styled each component here. 
+
+/* The header has been styled here. */
+#header {
+  color: white;
+  text-align: center;
+}
+
+/* The balance display has been styled here */
+#balance {
+  text-align: center;
+}
+
+/* the label in the form has been styled here */
+#label {
+  margin-right: 10px;
+}
+
+/* The overall app has been styled here */
+.App {
+  background-color:  rgb(106, 106, 106);
+  color: rgb(106, 106, 106);
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: lightgray;
+  text-align: left;
+  max-height: 35px;
+}
+
+/* The buttons have been styled in here */
+#withdrawButton {
+  border-radius: 3px;
+  background-color: red;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  margin: 10px;
+}
+
+#depositButton {
+  border-radius: 3px;
+  background-color: green;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  margin: 5px;
+}
+
+#chargesButton {
+  border-radius: 3px;
+  background-color: rgb(41, 126, 244);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  margin-left: 190px;
+}
+
+#interestButton {
+  border-radius: 3px;
+  background-color: purple;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  margin: 10px;
+}
+
+
+
+
+
+

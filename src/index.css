@@ -1,0 +1,158 @@
+/* Set the styling for the body of the components here. They all have the same font style and background colour. */
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(157, 156, 156);
+  padding: 5px;
+}
+
+/* Set te styling here for the main container to a dark grey colour background and white font.
+It has a max width and height set as well. */
+.main-container {
+  max-width: 700px;
+  min-height: 300px;
+  margin: 30px auto;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border-style: double;
+  border-color: rgb(140, 31, 150);
+  border-width: 10px;
+  background-color: #5b5b60;
+  color: white;
+  align-items: center;
+}
+
+/* Underlined the title. */
+#title {
+  text-decoration-line: underline;
+}
+
+/* Set the Header component to have display:flex */
+header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+/* Styled the instructions component here */
+.instructions-list {
+  margin: 0 0 25px 0;
+  border-style: dashed;
+  border-color: white;
+  border-radius: 3px;
+}
+.instructions-list li {
+  font-size: 16px;  
+  padding: 5px;
+}
+
+/* The Results component has been styled here to be green with white font. */
+.results {
+  background-color: rgb(1, 105, 1);
+  color: white;
+  border-radius: 3px;
+  margin: 10px;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: white;
+}
+.results p {
+  padding: 10px;
+  margin: 5px;
+}
+
+
+/* The hidden word is styled here to have flex at be aligned under the image. */
+.state-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Styled the image to have a width of 200px and 15px margins. */
+.state-img {
+  margin: 15px;
+  width: 200px;
+}
+
+/* Styled the correctly guessed letters here as monospace and set to a large font size of 40px. */
+.state-dash {
+  margin: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+/* The instructons and new game buttons are styled here in pink with white font. 
+They are set to be large buttons with a dotted border and rounded corners. */
+.btn {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: rgb(140, 31, 150);;
+  color: white;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 3px;
+  padding: 8px 15px;
+  margin: 5px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* The New Game! button is centred here and margins added.. */
+#newGame {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* The container that holds the keyboard is set to flex here. It is also centred. */
+.alpha-container {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 500px;
+  margin: 40px auto 10px auto;
+}
+
+/* The buttons are spaced apart here by adding padding and a margin to each one. */
+.icon {
+  padding: 2px;
+  margin: 2px;
+}
+
+/* The keyboard is styled here, so that the keys are black with white font. */
+.icon button {
+  width: 1.9rem;
+  border-radius: 3px;
+  padding: 2px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* Styled the keyboard buttons so they are pink when hovered over. */
+.icon button:hover {
+  background-color: rgb(140, 31, 150);
+}
+
+/* If a letter was guessed correctly, it is styled so that it is changed to green */
+.button-green {
+  background-color: rgb(1, 105, 1) !important;
+}
+
+/* If a letter was guessed incorrectly, it is styled so that it is changed to red */
+.button-red {
+  background-color: red !important;
+}
+
+/* When the game is over, the buttons are styled so that they are turned grey. */
+.button-grey {
+  background-color: grey !important;
+}
+
